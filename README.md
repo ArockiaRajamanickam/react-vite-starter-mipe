@@ -1,8 +1,25 @@
-# React + Vite
+# react-vite-starter-mipe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The minimal **React + Vite** baseline I clone to start new frontend projects.
 
-Currently, two official plugins are available:
+**Includes:** React 18 · Vite with SWC fast refresh · ESLint (react, react-hooks, react-refresh presets)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Use it
+
+Click **“Use this template”** on GitHub, or:
+
+```bash
+gh repo create my-app --template ArockiaRajamanickam/react-vite-starter-mipe --clone
+cd my-app
+npm install
+npm run dev
+```
+
+## Scripts
+
+| Command | Does |
+|---|---|
+| `npm run dev` | Start the dev server with HMR |
+| `npm run build` | Production build to `dist/` |
+| `npm run lint` | Run ESLint |
+| `npm run preview` | Preview the production build |
